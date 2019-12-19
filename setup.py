@@ -31,9 +31,9 @@ package_data = {
              'schema/fmi1/*.xsd',
              'schema/fmi2/*.xsd',
              'schema/fmi3/*.xsd',
-             'sundials/x86_64-darwin/sundials_*',
-             'sundials/x86_64-linux/sundials_*',
-             'sundials/x86_64-windows/sundials_*'],
+             'sundials/x86_64-darwin/sundials_*.dylib',
+             'sundials/x86_64-linux/sundials_*.so',
+             'sundials/x86_64-windows/sundials_*.dll'],
     'fmpy.gui': ['icons/app_icon.ico'],
     'fmpy.ssp': ['schema/*.xsd'],
 }
